@@ -51,5 +51,5 @@ production:
   <<: *default
   database: pinterest_production
   username: root
-  password: <%= ENV['ky01050105'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
